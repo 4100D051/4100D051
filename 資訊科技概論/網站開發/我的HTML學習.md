@@ -16,3 +16,12 @@ HTML 的文件結構由多個標籤 (Tag) 組成一個個內容區塊，而不�
 網頁大多數的內容如文字、圖片、影片、表單、表格 ... 等元素，都是寫在 body 標籤內，
 每一個獨立網頁都只能有一組 body 標籤
 ```
+- [css](https://developer.mozilla.org/zh-TW/docs/Learn/Getting_started_with_the_web/CSS_basics)
+```
+CSS 既非標準程式語言，也不是標記語言, 而是一種風格頁面語言
+它能讓你在 HTML 文件中的元素上套用不同的頁面樣式
+當想要將 HTML 頁面上所有段落元素裡的文字全部轉換成紅色，你會在CSS裡寫:
+p {
+  color: red;
+}
+```
