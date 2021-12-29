@@ -4,7 +4,7 @@
 <head>
     <title>Cafe Unlimited - Home</title>
 
-    <script> 按鈕指令
+    <script> (javascript) //script == 按鈕指令
         function bigger(){
             document.getElementById('body').style.fontSize='x-large';
         }
@@ -12,8 +12,8 @@
             document.getElementById('body').style.fontSize='medium';
         }
     </script>
-    <style>
-        h1 {   屬性
+    <style> //css
+        h1 {   //屬性
             font-family: fantasy;
             color: slategray;
         }
@@ -28,7 +28,7 @@
         }
     </style>
 
-</head>                                          圖片
+</head>                                          //圖片
 <body id="body" style="background-image:url(images/background.png)">
 
 <!-- Banner --> 
@@ -36,9 +36,9 @@
     <img src="images/banner.png" alt="Cafe Unlimited - Banner">
 </p>
 
-<!-- Navigation links --> 超連結
+<!-- Navigation links --> //超連結
 <p style="background:slategray;font-weight: bolder;">
-    <a href="index.html">Home</a>  <a 圖片
+    <a href="index.html">Home</a>  //<a 圖片
     <a href="breakfast.html">Breakfast</a>
 </p>
 
@@ -58,7 +58,7 @@
     Freshly baked muffins, signature omelets, healthy salads, delicious burgers
     and hearty sandwiches are just some of the delicious items on our menu.
 
-    We were voted the     顏色             字體
+    We were voted the      //顏色          //字體
           <span style="color:red;font-style:italic">
         the #1 Breakfast and Lunch restaurant
     </span>
@@ -72,7 +72,7 @@
 <p>We offer delivery on <a href="http://ubereats.com" target="_blank">UberEats</a>. Download the app and place your order today. Please contact us about catering services.</p>
 
 <p>We are located at 20 Channel Center Street in Boston, MA.</p>
-//加入GOOGLE MAP <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.8366673124624!2d-71.05369318489703!3d42.346005543982265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37a7de82a1251%3A0xb79b53cf96e26c94!2s20+Channel+Center+St%2C+Boston%2C+MA+02210!5e0!3m2!1sen!2sus!4v1543445329233" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+   //iframe src ==加入GOOGLE MAP   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.8366673124624!2d-71.05369318489703!3d42.346005543982265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37a7de82a1251%3A0xb79b53cf96e26c94!2s20+Channel+Center+St%2C+Boston%2C+MA+02210!5e0!3m2!1sen!2sus!4v1543445329233" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 <p>    We are open:</p>
 
 <ul>
